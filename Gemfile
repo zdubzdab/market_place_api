@@ -49,6 +49,7 @@ gem 'furatto'
 gem 'font-awesome-rails'
 gem 'simple_form'
 
+gem 'puma'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
