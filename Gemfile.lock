@@ -7,6 +7,12 @@ GIT
       activemodel (~> 4.0)
       httparty (~> 0.13)
 
+GIT
+  remote: https://github.com/EmmanuelOga/ffaker.git
+  revision: a3353074af2ceff5cfcd6f3dc06039d3a95a0c95
+  specs:
+    ffaker (2.2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -68,7 +74,6 @@ GEM
     factory_girl_rails (4.4.1)
       factory_girl (~> 4.4.0)
       railties (>= 3.0.0)
-    ffaker (1.24.0)
     font-awesome-rails (4.1.0.0)
       railties (>= 3.2, < 5.0)
     fssm (0.2.10)
@@ -171,7 +176,7 @@ DEPENDENCIES
   compass-rails
   devise
   factory_girl_rails
-  ffaker
+  ffaker!
   font-awesome-rails
   furatto
   jquery-rails
