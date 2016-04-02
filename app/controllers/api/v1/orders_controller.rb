@@ -23,9 +23,4 @@ class Api::V1::OrdersController < ApplicationController
     end
   end
 
-  private
-
-    def order_params
-      params.require(:order).permit(:product_ids => [])
-    end
 end
