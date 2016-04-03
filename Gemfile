@@ -52,6 +52,7 @@ gem 'simple_form'
 
 gem 'puma'
 gem 'kaminari'
+gem 'delayed_job_active_record'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
